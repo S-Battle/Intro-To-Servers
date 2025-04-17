@@ -1,0 +1,69 @@
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 2rem;
+    overflow: auto;
+    background-color: darkgrey;
+}
+.heading h1, .heading h4 {
+    margin: 0px;
+    margin: 0px;
+
+
+}
+
+.square{
+    width: 95vw;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    overflow: auto;
+    background-color: darkgrey;
+}
+.square button{
+    height: 4rem;
+}
+#display1{
+    width: 80%;
+    height: 80vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#setup{
+    height: 50%;
+    width: 100%;
+    font-size: 4rem;
+    padding: 2rem;
+    align-content: center;
+
+}
+#punchline{
+
+
+    height: 50%;
+    width: 100%;
+    font-size: 4rem;
+    padding: 2rem;
+   align-content: center;
+
+}
